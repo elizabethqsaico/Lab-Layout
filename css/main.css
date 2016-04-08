@@ -1,0 +1,126 @@
+#contenedor{
+	width: 700px;
+	margin: 0 auto;
+}
+#menu{
+
+}
+#section{
+    border: 1px solid black;
+    width: 700px;
+    float:left;
+    margin: 5px;
+    padding:5px; 
+}
+#pie{
+    clear:both;
+    text-align:center;
+    padding:5px; 
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+li {
+    float: left;
+    /*position: relative;
+    right: 50%;*/
+    border: 1px solid black;
+    border-left-style: none;
+    border-right-style: none;
+}
+li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+/* Coder Detail */
+
+#detail{
+    width: 700px;
+    margin: 0 auto;
+    padding: 5px;
+}
+
+/* Inicio */
+#inicio img{
+    width: 700px;
+}
+
+/* Sobre Nosotros */
+#sobrenosotros h1{
+    text-align: center;
+    padding: 10px;
+    border-left-style: none;
+    border-right-style: none;
+}
+#sobrenosotros div{
+    border: 3px solid grey;
+    width: 10%;
+    margin: 10px auto;
+}
+/* Nuestras Coders */
+
+ #nuestrascoders .linea {
+    border:2px solid black;
+    margin-top: 20px;
+    width: 10%;
+ }
+#nuestrascoders > #contenedor{
+    margin: 0 auto;
+}
+#nuestrascoders .cuadrado{
+    width: 200px;
+    height: 200px;
+    position: relative;
+    display: inline-block;
+    left: 80px;
+    margin-right: 20px;
+}
+#nuestrascoders img{
+    width: 200px;
+    height: 200px;
+}
+#nuestrascoders p{
+    font-family: cursive;
+    color: white;
+    position: relative;
+    top: 315px;
+    left: 200px;
+}
+#nuestrascoders .cuadrado > div{
+    position: absolute;
+    top: 50px;
+    left: 1px;
+    width: 200px;
+    height: 200px;
+    background-color: black;
+    opacity: 0.5;
+}
+#nuestrascoders .cuadrado > div:hover{
+    opacity: 0;
+}
+
+/* Contacto */
+#contacto > #contenedor{
+    border: 3px solid grey;
+    margin-top: 10px;
+    padding: 50px;
+
+}
+#contacto #contenedor img{
+    width: 100px;
+    height: 100px;
+    border-radius: 100px;
+    position: relative;
+    left: 300px;
+}
+#contacto h1 h2{
+    text-align: center;
+}
