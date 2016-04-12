@@ -1,6 +1,9 @@
 /* *{
     outline: 1px solid rgba(255,0,0,0.4);
 }*/
+body{
+    text-align: center;
+}
 /* HEADER */
 .contenedor{
     width: 700px;
