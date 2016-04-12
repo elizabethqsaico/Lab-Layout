@@ -1,103 +1,88 @@
-#contenedor{
-	width: 700px;
-	margin: 0 auto;
-}
-#menu{
-
-}
-#section{
-    border: 1px solid black;
-    width: 700px;
-    float:left;
-    margin: 5px;
-    padding:5px; 
-}
-#pie{
-    clear:both;
-    text-align:center;
-    padding:5px; 
-}
-
-ul {
-    list-style-type: none;
-    padding: 0;
-    margin: 0;
-}
-li {
-    float: left;
-    /*position: relative;
-    right: 50%;*/
-    border: 1px solid black;
-    border-left-style: none;
-    border-right-style: none;
-}
-li a {
-    display: block;
-    color: black;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-size: 20px;
-}
-
-/* Coder Detail */
-
-#detail{
+/* *{
+    outline: 1px solid rgba(255,0,0,0.4);
+}*/
+/* HEADER */
+.contenedor{
     width: 700px;
     margin: 0 auto;
-    padding: 5px;
+}
+header section{
+    width: inherit;
+}
+.contenedor img{ 
+    width: 700px;
+    margin: 10px auto;
+}
+header ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+}
+header li {
+    display: inline-block;
+    margin: 10px 0;
+    border-right:1px solid black;
+    padding: 5px 20px;
+}
+header li > a {
+    display: block;
+    color: black;
+    font-size: 20px;
+    text-align: center;
+    text-decoration: none;
+}
+header ul li:last-child{
+    border-right: none;
 }
 
 /* Inicio */
 #inicio img{
     width: 700px;
 }
-
 /* Sobre Nosotros */
+#sobrenosotros hr{
+    border: 3px solid grey;
+    width: 10%;
+    margin: 10px auto;
+}
 #sobrenosotros h1{
     text-align: center;
     padding: 10px;
     border-left-style: none;
     border-right-style: none;
 }
-#sobrenosotros div{
-    border: 3px solid grey;
-    width: 10%;
-    margin: 10px auto;
-}
 /* Nuestras Coders */
-
- #nuestrascoders .linea {
+#nuestrascoders h3{
+    text-align: left;
+}
+ #nuestrascoders hr {
     border:2px solid black;
-    margin-top: 20px;
     width: 10%;
- }
+}
 #nuestrascoders > #contenedor{
     margin: 0 auto;
 }
 #nuestrascoders .cuadrado{
-    width: 200px;
-    height: 200px;
     position: relative;
     display: inline-block;
-    left: 80px;
-    margin-right: 20px;
+    margin: 10px 10px;
 }
 #nuestrascoders img{
     width: 200px;
     height: 200px;
 }
 #nuestrascoders p{
-    font-family: cursive;
+    font-family: Cursive;
     color: white;
-    position: relative;
-    top: 315px;
-    left: 200px;
+    position: absolute;
+    right: 0;
+    bottom: 0;
 }
 #nuestrascoders .cuadrado > div{
     position: absolute;
-    top: 50px;
-    left: 1px;
+    top: 10px;
     width: 200px;
     height: 200px;
     background-color: black;
@@ -106,21 +91,55 @@ li a {
 #nuestrascoders .cuadrado > div:hover{
     opacity: 0;
 }
-
 /* Contacto */
-#contacto > #contenedor{
+#coder-detail section{
     border: 3px solid grey;
     margin-top: 10px;
-    padding: 50px;
-
+    padding: 20px;
 }
-#contacto #contenedor img{
-    width: 100px;
-    height: 100px;
-    border-radius: 100px;
+#coder-detail section img{
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+}
+#contacto h2{
+    text-align: left;
+}
+#contacto ul{
+    list-style-type: none;
+    text-align: left;
+}
+#contacto li{
+    color: white;
+    background: grey;
+    text-align: left;
+    padding: 10px;
+    margin-top: 10px;
+}
+#contacto li:nth-child(1){
+    width: 75%;
+}
+#contacto li:nth-child(2){
+    width: 50%;
+}
+#contacto li:nth-child(3){
+    width: 25%;
+}
+#contacto > #contenedor{
+    margin: 0 auto;
+}
+#contacto div .cuadrado{
     position: relative;
-    left: 300px;
+    display: inline-block;
+    margin: 10px 10px;
 }
-#contacto h1 h2{
-    text-align: center;
+#contacto .cuadrado img{
+    width: 150px;
+    height: 150px;
+    border-radius: 0%;
+}
+#pie{
+    clear:both;
+    text-align:center;
+    padding:5px; 
 }
